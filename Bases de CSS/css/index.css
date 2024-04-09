@@ -1,0 +1,51 @@
+/* estilos en cascada */
+h2 {
+  /* uso de important (ejemplo) */
+  color: red !important;
+}
+
+h2 {
+  color: green;
+}
+
+/* selectores de etiquetas */
+
+/* selector de etiqueta */
+h2 {
+  color: green;
+}
+
+/* selector de clase */
+.color_rojo {
+  color: red;
+}
+
+.color_azul {
+  color: blue;
+}
+
+/* selector de id */
+#textoConId {
+  color: blueviolet;
+}
+
+/* gerarquia de los selectores */
+/* de mayor a menor */
+/* id */
+#tituloId {
+  color: blueviolet;
+}
+
+/* clase */
+.titulo_clase {
+  color: aqua;
+}
+
+/* etiqueta */
+h3 {
+  color: red;
+}
+
+/* Algunas unidades de medida */
+/* unidad exacta: px */
+/* unidades relativas: % */
