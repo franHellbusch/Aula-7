@@ -1,0 +1,47 @@
+span {
+  color: green;
+}
+
+h1 {
+  color: green;
+}
+
+/* seleccionadores */
+
+/* etiqueta */
+h1 {
+  color: green;
+}
+
+/* clase */
+.titulo_principal {
+  color: chocolate;
+}
+
+.cambiando_titulo {
+  color: blueviolet;
+}
+
+#tituloPrincipal {
+  color: chartreuse;
+}
+
+/* gerarquia de seleccionadores */
+/* 1. id */
+#probandoGerarquia {
+  color: blueviolet;
+}
+
+/* 1. class */
+.probando_gerarquia {
+  color: aquamarine;
+}
+
+/* 1. etiqueta */
+h3 {
+  color: red;
+}
+
+/* unidades de medida (algunas) */
+/* pixeles: px */
+/* unidad relativa: % */
