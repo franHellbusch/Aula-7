@@ -1,0 +1,17 @@
+/* fondos (backgrounds) */
+body {
+  /* color del fondo */
+  background-color: aqua;
+  /* imagen de fondo */
+  background-image: url(https://png.pngtree.com/background/20230612/original/pngtree-wolf-animals-images-wallpaper-for-pc-384x480-picture-image_3180467.jpg);
+  /* repeat */
+  background-repeat: no-repeat;
+  /* tamaño de background */
+  background-size: 200px 500px;
+  background-size: cover;
+  background-size: contain;
+}
+
+.titulo {
+  background-color: brown;
+}
