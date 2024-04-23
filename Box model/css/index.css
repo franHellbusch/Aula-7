@@ -1,0 +1,78 @@
+/* BOX MODEL */
+.container {
+  background-color: aqua;
+  /* Contenido */
+  /* Ancho del contenido (Se utilizan unidades de medida o algunos valores propios de la propiedad) */
+  width: fit-content;
+  /* Alto del contenido (Se utilizan unidades de medida o algunos valores propios de la propiedad) */
+  height: 50px;
+
+  /* padding (relleno) */
+  padding: 10px;
+  /* padding a la izquierda */
+  padding-left: 100px;
+  /* padding a la derecha */
+  padding-right: 50px;
+  /* padding arriba */
+  padding-top: 20px;
+  /* padding abajo */
+  padding-bottom: 30px;
+  /* forma rapida de colocar paddings */
+  /* primer valor para arriba/abajo y el segundo para izquiera/derecha  */
+  padding: 50px 10px;
+  /* Valores en el sentido de las agujas del reloj, comenzando por el top  */
+  padding: 40px 20px 50px 30px;
+
+  /* border */
+  /* tamaño de borde */
+  border-width: 5px;
+  /* color del borde */
+  border-color: blueviolet;
+  /* estilo (solid, dashed, double, dotted, etc) */
+  border-style: solid;
+
+  /* forma rapida (Tambien funciona con un lado en especifico), el orden de los valores no genera conflicto */
+  border: 10px solid blue;
+  /* Forma rapida arriba */
+  border-top: 20px solid red;
+  /* Forma rapida derecha */
+  border-right: 5px solid blueviolet;
+  /* Forma rapida abajo */
+  border-bottom: 40px solid green;
+  /* Forma rapida izquierda */
+  border-left: 10px solid blue;
+
+  /* valores de borde de forma rapida */
+  border-style: dotted solid;
+  border-style: dotted solid dashed double;
+  border-width: 5px 10px 8px 20px;
+
+  /* radius (redondeo del borde) */
+  border-radius: 20px;
+
+  /* margin (separacion) */
+  margin: 100px;
+  /* margin a la izquierda */
+  margin-left: 100px;
+  /* margin a la derecha */
+  margin-right: 50px;
+  /* margin arriba */
+  margin-top: 20px;
+  /* margin abajo */
+  margin-bottom: 30px;
+  /* forma rapida de colocar margins */
+  /* primer valor para arriba/abajo y el segundo para izquiera/derecha  */
+  margin: 50px 10px;
+  /* Valores en el sentido de las agujas del reloj, comenzando por el top  */
+  margin: 40px 20px 50px 30px;
+}
+
+.button {
+  background-color: #99ffff;
+  border: 1px solid #21ffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: blue;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
