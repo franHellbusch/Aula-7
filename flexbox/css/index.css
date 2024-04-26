@@ -1,0 +1,46 @@
+/* seleccionamos todas las etiquetas y les quitamos el margin y padding por defecto */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* Activar contenedor flexible en linea */
+  display: inline-flex;
+  /* Activar contenedor flexible en bloque */
+  display: flex;
+
+  /* column: columna */
+  flex-direction: column;
+  /* row-reverse: fila a la inversa */
+  flex-direction: row-reverse;
+  /* column-reverse: columna a la inversa */
+  flex-direction: column-reverse;
+  /* row: fila (por defecto una vez colocado display flex) */
+  flex-direction: row;
+
+  /* justify content (organiza los elemento en horizontal cuando es row/row-reverse y vertical cuando es column y column-reverse */
+  /* Principio (por defecto) */
+  justify-content: flex-start;
+  /* final */
+  justify-content: flex-end;
+  /* center */
+  justify-content: center;
+  /* espacio entre las etiquetas */
+  justify-content: space-between;
+  /* espacio entre las eitqueta y mitad de ese espacio a la derecha e izquierda */
+  justify-content: space-around;
+  /* espacio equitativo entre etiquetas */
+  justify-content: space-evenly;
+
+  /* align-items */
+  /* organiza los items en horizontal cuando es row/row-reverse y vertical cuando es column y column-reverse */
+  /* se estiran los items el maximo posible */
+  align-items: stretch;
+  /* principio */
+  align-items: flex-start;
+  /* final */
+  align-items: flex-end;
+  /* centro */
+  align-items: center;
+}
