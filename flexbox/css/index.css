@@ -43,4 +43,63 @@
   align-items: flex-end;
   /* centro */
   align-items: center;
+
+  height: 600px;
+  background: #ffb0b0;
+
+  /* flex wrap */
+  /* nowrap: por defecto (no genera un salto de linea) */
+  flex-wrap: nowrap;
+  /* wrap reverse (se genera un salto de linea para arriba) */
+  flex-wrap: wrap-reverse;
+  /* wrap (genera un salto de linea para abajo */
+  flex-wrap: wrap;
+
+  /* align-content (organiza los elemento en multiples lineas) */
+  /* se estiran los items el maximo posible */
+  align-content: stretch;
+  /* flex-start */
+  align-content: flex-start;
+  /* flex-end */
+  align-content: flex-end;
+  /* center */
+  align-content: center;
+  /* space-between */
+  align-content: space-between;
+  /* space-around */
+  align-content: space-around;
+  /* space-evenly */
+  align-content: space-evenly;
+}
+
+h3 {
+  padding: 20px;
+  margin: 10px;
+  background: green;
+}
+
+.container-2 {
+  margin: 200px 0;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.texto-1 {
+  background: red;
+  flex-grow: 2;
+  order: 3;
+}
+
+.texto-2 {
+  background: blue;
+  flex-grow: 1;
+  order: 1;
+}
+
+.texto-3 {
+  background: green;
+  flex-grow: 1;
+  order: 2;
 }
